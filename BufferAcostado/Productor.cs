@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace BufferAcostado
 {
-    internal class Productor
+    class Productor
     {
+        private readonly BufferAcotado buffer;
+        private readonly int cantidad;
+
+        public Productor(BufferAcotado buffer, int cantidad)
+        {
+            this.buffer = buffer;
+            this.cantidad = cantidad;
+        }
+        public void Ejecutar()
+        {
+            for(int i = 1; i <= cantidad; i++)
+            {
+                Console.WriteLine($"Productor -> produce {i}");
+                buffer.Poner(i);    // espera si está lleno
+                Thread.Sleep(100);      // producir es rápido
+            }
+        }
     }
 }
