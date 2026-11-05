@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufferAcostado", "BufferAcostado\BufferAcostado.csproj", "{10E18FA4-F5A0-4815-873E-D3B74CFD2424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E18FA4-F5A0-4815-873E-D3B74CFD2424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E18FA4-F5A0-4815-873E-D3B74CFD2424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E18FA4-F5A0-4815-873E-D3B74CFD2424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E18FA4-F5A0-4815-873E-D3B74CFD2424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB056203-0B09-43D2-B89B-97288EB9A9A1}
+	EndGlobalSection
+EndGlobal
